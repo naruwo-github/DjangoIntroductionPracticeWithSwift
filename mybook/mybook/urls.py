@@ -18,5 +18,6 @@ from django.urls import path, include
 
 urlpatterns = [
     path('cms/', include('cms.urls')),
+    path('api/', include('api.urls')),  # ここを追加
     path('admin/', admin.site.urls),
 ]
